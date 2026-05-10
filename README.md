@@ -96,3 +96,26 @@ SDET Portfolio Project demonstrating AI-powered test automation
 ### Security & Code Quality
 - Rulesets enforce branch protection on the main branch
 - All contributions help maintain code integrity
+
+## Media & Evidence Management with Cloudinary
+
+The AI Test Script Generator can leverage Cloudinary for storing and managing test artifacts:
+
+### Integration Benefits:
+- **Test Evidence Storage**: Automatically upload test screenshots and error logs to Cloudinary
+- **Image Optimization**: Optimize test evidence images for documentation and reports
+- **Real-time Transformations**: Auto-resize and compress test artifacts for different environments
+- **Production-Ready Pipeline**: Cloudinary handles reliable media delivery at scale
+
+### Example Use Case:
+When tests fail, screenshots are automatically uploaded to Cloudinary, transformed for clarity, 
+and embedded in test reports with optimized delivery.
+
+```javascript
+// Test evidence upload example
+const cloudinary = require('cloudinary').v2;
+cloudinary.uploader.upload(screenshotPath, {
+  folder: 'test-evidence',
+  resource_type: 'auto'
+});
+```
