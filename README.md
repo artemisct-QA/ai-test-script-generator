@@ -77,3 +77,22 @@ Each generated test includes:
 ## 🎓 Built During Global Hack Week 2026 - GenAI Track
 
 SDET Portfolio Project demonstrating AI-powered test automation
+
+## Contributing
+
+### Branch Protection & Security
+- All changes must go through pull requests
+- Force pushes are prevented to maintain history integrity
+- Linear commit history is required for clean project timeline
+- Branch deletions are restricted to prevent accidental removal
+
+### Collaboration Procedures
+1. Create a feature branch: `git checkout -b feature/your-feature`
+2. Make your changes and commit with clear messages
+3. Push to your branch and create a pull request
+4. Address any code review feedback
+5. Merge once approved
+
+### Security & Code Quality
+- Rulesets enforce branch protection on the main branch
+- All contributions help maintain code integrity
